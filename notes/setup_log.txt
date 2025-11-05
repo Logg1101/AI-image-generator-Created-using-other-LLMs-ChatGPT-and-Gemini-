@@ -30,7 +30,3 @@
 - Prompt clarity directly affects detail sharpness.
 - Increasing steps improves detail but also processing time.
 
-## Next Steps
-- Add style presets (realism, anime, cinematic).
-- Test with different checkpoints for quality variation.
-- Possibly deploy a lightweight demo on Hugging Face or Streamlit Cloud.
