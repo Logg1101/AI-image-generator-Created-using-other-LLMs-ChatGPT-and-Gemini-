@@ -1,6 +1,6 @@
 # AI Image Generator 🎨
 
-**Owner:** Ankit (Kaien) — *LoGG*  
+**Owner:** Ankit — *LoGG*  
 **Status:** Portfolio project / demo
 
 ---
