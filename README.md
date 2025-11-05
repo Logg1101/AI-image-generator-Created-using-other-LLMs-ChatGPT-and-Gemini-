@@ -1,3 +1,6 @@
+![AI Image Generator Interface](cover.png)
+
+
 # AI Image Generator 🎨
 
 **Owner:** Ankit — *LoGG*  
