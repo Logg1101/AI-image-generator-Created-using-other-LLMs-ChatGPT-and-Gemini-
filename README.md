@@ -34,5 +34,11 @@ If you're looking for someone who can assemble, configure, evaluate, and present
 - Checkpoint / LoRA loading and lightweight merging workflows.  
 - Negative prompt support to reduce common artifacts.
 
+## How I Built This
+
+This project was created as a guided experiment using **ChatGPT** and **Gemini** for research, debugging, and setup support.  
+The focus was on understanding the **Stable Diffusion WebUI workflow**, environment management, and prompt optimization.  
+No direct training or model coding was performed — all work centered around setup, integration, and output evaluation.
+
 ---
 
