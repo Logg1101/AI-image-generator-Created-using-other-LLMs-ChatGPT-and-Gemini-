@@ -1,0 +1,36 @@
+# Setup Log for AI Image Generator
+
+## Environment
+- Python 3.10.6
+- Torch 2.1.2+cu121
+- Gradio 3.41.2
+- xformers: N/A
+- WebUI Version: v1.10.1
+- Model: AnythingXL_xl.safetensors (Stable Diffusion XL-based)
+- GPU: Local system without dedicated training (inference only)
+
+## Notes
+- The generator uses pre-trained Stable Diffusion checkpoints.
+- Configured and optimized via the Automatic1111 WebUI interface.
+- No custom model training was performed.
+- Outputs depend on model weights, prompt design, and sampling parameters.
+- Used ChatGPT and Gemini for setup guidance, prompt refinement, and workflow troubleshooting.
+
+## Typical Settings Used
+- Sampler: DPM++ 2M
+- Steps: 35–45
+- CFG Scale: 7–8
+- Resolution: 512x512 (square gives best results)
+- Hires.fix: ON, Upscaler: RealESRGAN x2
+- Img2Img Denoise: 0.25
+
+## Observations
+- Non-square resolutions tend to blur unless upscaled with Hires.fix.
+- Model performs best for stylized or anime-type visuals.
+- Prompt clarity directly affects detail sharpness.
+- Increasing steps improves detail but also processing time.
+
+## Next Steps
+- Add style presets (realism, anime, cinematic).
+- Test with different checkpoints for quality variation.
+- Possibly deploy a lightweight demo on Hugging Face or Streamlit Cloud.
